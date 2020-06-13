@@ -2,13 +2,13 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Chrome",
+      "name": "Chrome Launch",
       "type": "chrome",
       "request": "launch",
       "url": "http://localhost:4200/",
       "sourceMaps": true,
       "webRoot": "${workspaceRoot}",
-      "trace": true,
+      "trace": false,
       "sourceMapPathOverrides": {
         "webpack:///./*": "${webRoot}/*"
       }
